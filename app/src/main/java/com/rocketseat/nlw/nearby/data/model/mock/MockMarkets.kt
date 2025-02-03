@@ -10,7 +10,23 @@ val mockMarkets = listOf(
         name = "Sabor Grill",
         description = "Churrascaria com cortes nobres e buffet variado. Experiência completa para os amantes de carne.",
         coupons = 10,
-        rules = emptyList(),
+//        rules = listOf(
+//            Rule(
+//                id = "1",
+//                description = "Válido até o dia 28/02/2025",
+//                marketId = "012576ea-4441-4b8a-89e5-d5f32104c7c4"
+//            ),
+//            Rule(
+//                id = "2",
+//                description = "Disponível apenas para consumo local",
+//                marketId = "012576ea-4441-4b8a-89e5-d5f32104c7c4"
+//            ),
+//            Rule(
+//                id = "3",
+//                description = "Disponível apenas para hoje",
+//                marketId = "012576ea-4441-4b8a-89e5-d5f32104c7c4"
+//            )
+//        ),
         latitude = -23.55974230991911,
         longitude = -46.65814845249887,
         address = "Av. Paulista - Bela Vista, São Paulo - SP",
@@ -23,7 +39,7 @@ val mockMarkets = listOf(
         name = "Pizzaria Napoli",
         description = "Autêntica pizza italiana feita no forno a lenha com ingredientes selecionados.",
         coupons = 5,
-        rules = emptyList(),
+//        rules = emptyList(),
         latitude = -23.561110,
         longitude = -46.656222,
         address = "Rua Augusta - Consolação, São Paulo - SP",
